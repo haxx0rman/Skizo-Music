@@ -1,0 +1,4 @@
+# Application name	Streamer
+# API key	2d9810389d8e5c0692d4c7d9908def84
+# Shared secret	d37c1888bff0823a32acb8336629288b
+# Registered to	mickyfubu
