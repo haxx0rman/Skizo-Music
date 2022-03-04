@@ -25,6 +25,10 @@ lastFM_key= "2d9810389d8e5c0692d4c7d9908def84"
 class Skizo:
     def __init__(self, LFM_key):
 
+        self.debug = True
+        self.warn = True
+        self.err = True
+        self.log = WatchDog("SKIZO", self.debug, self.warn, self.err)
         self.current = 0
         self.playing = None
         self.queue = []
@@ -42,17 +46,21 @@ class Skizo:
                 'preferredcodec': 'wav',
                 'preferredquality': '192',
             }],
-            'logger': MyLogger(),
-            'progress_hooks': [my_hook],
+            'logger': WatchDog(alias = "YDL", self.debug, self.warn, self.err),
+            'progress_hooks': [hook],
         }
 
         self.start()
 
+
+
     def start(self):
         print("Enter an artist or leave blank for a surprise (press ENTER)")
         self.querry = input()
+        self.log.debug("Querry entered: {}".format(self.querry))
         if len(self.querry) < 2:
             self.querry = None
+            self.log.debug("No querry entered. Shuffling library...")
         self.get_queue()
 
     def get_saved_songs(self):
@@ -93,8 +101,8 @@ class Skizo:
             #youtube-dl -f bestaudio --extract-audio --audio-format mp3 --audio-quality 0 <Video-URL>
             # subprocess.Popen(["youtube-dl", "-f", "bestaudio", "--extract-audio", "--audio-format", "wav", "--audio-quality", "3", url])
             # return "title"#self.get_title(url)
-        except:
-            print("Download Error!")
+        except Exception as e:
+            self.log.error("Download failed for URL: {} Exception: \n {}".format(url, traceback.format_exc()))
 
 
     def get_title(self, url):
@@ -125,7 +133,7 @@ class Skizo:
                         }
                     self.save_song(song)
                     self.queue.append(song)
-                    print("Added {} - by {} to Queue".format(song["track"], song["artist"]))
+                    self.log.debug("Added {} - by {} to Queue".format(song["track"], song["artist"]))
                     time.sleep(5)
                     self.next()
 
@@ -151,18 +159,19 @@ class Skizo:
                     time.sleep(5)
                     self.next()
             except Exception as e:
-                print("\n\n\n\n\n\nError in get_queue():")
-                traceback.print_exc()
+                self.log.error("Issue in get_queue() Exception: {}".format(traceback.format_exc()))
 
     def play(self):
         try:
             #self.save_song(self.nowplaying)
             print("Now Playing {} - by {}".format(self.nowplaying["track"], self.nowplaying["artist"]))
-            playsound('songs/{}.wav'.format(self.nowplaying["title"]))
+            file = 'songs/{}.wav'.format(self.nowplaying["title"])
+            playsound(file)
             self.next()
         except Exception as e:
             print("\n\n\n\n\n\nError in play():")
-            traceback.print_exc()
+            self.log.error("Trouble playing file: {} \nException: {}".format(file, traceback.format_exc()))
+            #traceback.print_exc()
             time.sleep(5)
             this.nowplaying = None
             self.next()
@@ -185,22 +194,32 @@ class Skizo:
         video_link = "http://www.youtube.com/watch?v=" + search_results[0]
         return video_link
 
+    def hook(self, d):
+        if d['status'] == 'finished':
+            self.log.debug('Done downloading, now converting ...')
+            pass
 
-class MyLogger(object):
+
+class WatchDog(object):
+    def __init__(self, alias = "UNNAMED", en_debug = False, en_warn = True, en_err = True):
+        self.alias = alias
+        self.en_debug = en_debug
+        self.en_warn = en_warn
+        self.en_err = en_err
     def debug(self, msg):
-        pass
+        if self.en_debug:
+            print("{} {}: {}".format(self.alias, "DEBUGGER", msg))
 
     def warning(self, msg):
-        pass
+        if self.en_warn:
+            print("{} {}: {}".format(self.alias, "WARNING", msg))
 
     def error(self, msg):
-        print(msg)
+        if self.en_err:
+            print("{} {}: {}".format(self.alias, "ERROR", msg))
 
 
-def my_hook(d):
-    if d['status'] == 'finished':
-        #print('Done downloading, now converting ...')
-        pass
+
 
 
 stream = Skizo(lastFM_key)
