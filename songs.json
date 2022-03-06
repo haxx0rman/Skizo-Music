@@ -1,1 +1,328 @@
-{}
+{
+    "songs": [
+        {
+            "artist": "Brandy",
+            "querry": "Camouflage by Brandy",
+            "title": "Camouflage",
+            "track": "Camouflage"
+        },
+        {
+            "artist": "Tinashe",
+            "querry": "Remember When by Tinashe",
+            "title": "Tinashe - Remember When [Official Audio]",
+            "track": "Remember When"
+        },
+        {
+            "artist": "Bonobo",
+            "querry": "Kiara by Bonobo",
+            "title": "Bonobo - Kiara",
+            "track": "Kiara"
+        },
+        {
+            "artist": "Jaymes Young",
+            "querry": "Two People by Jaymes Young",
+            "title": "Jaymes Young - Two People [Official Audio]",
+            "track": "Two People"
+        },
+        {
+            "artist": "Awolnation",
+            "querry": "Hollow Moon (Bad Wolf) by Awolnation",
+            "title": "AWOLNATION \u2013 Hollow Moon (Bad Wolf) (Official Video)",
+            "track": "Hollow Moon (Bad Wolf)"
+        },
+        {
+            "artist": "Glass Animals",
+            "querry": "Exxus by Glass Animals",
+            "title": "Glass Animals - Exxus (Official Audio)",
+            "track": "Exxus"
+        },
+        {
+            "artist": "Glass Animals",
+            "querry": "Dreamland by Glass Animals",
+            "title": "Glass Animals - Dreamland (Official Video)",
+            "track": "Dreamland"
+        },
+        {
+            "artist": "Glass Animals",
+            "querry": "Space Ghost Coast To Coast by Glass Animals",
+            "title": "Glass Animals - Space Ghost Coast To Coast (Official Video)",
+            "track": "Space Ghost Coast To Coast"
+        },
+        {
+            "artist": "Glass Animals",
+            "querry": "Heat Waves (with iann dior) by Glass Animals",
+            "title": "Glass Animals & iann dior - Heat Waves (Lyrics) \"sometimes all i think about is you\"",
+            "track": "Heat Waves (with iann dior)"
+        },
+        {
+            "artist": "Glass Animals",
+            "querry": "Tokyo Drifting by Glass Animals",
+            "title": "Glass Animals, Denzel Curry - Tokyo Drifting",
+            "track": "Tokyo Drifting"
+        },
+        {
+            "artist": "Glass Animals",
+            "querry": "Pork Soda by Glass Animals",
+            "title": "Glass Animals - Pork Soda (Official Audio)",
+            "track": "Pork Soda"
+        },
+        {
+            "artist": "Glass Animals",
+            "querry": "Holiest (feat. Tei-Shi) by Glass Animals",
+            "title": "Glass Animals - Holiest Feat. Tei Shi (Official Audio)",
+            "track": "Holiest (feat. Tei-Shi)"
+        },
+        {
+            "artist": "Glass Animals",
+            "querry": "It\u2019s All So Incredibly Loud by Glass Animals",
+            "title": "Glass Animals | It's All So Incredibly Loud (Official Video)",
+            "track": "It\u2019s All So Incredibly Loud"
+        },
+        {
+            "artist": "Glass Animals",
+            "querry": "Take A Slice by Glass Animals",
+            "title": "Take A Slice",
+            "track": "Take A Slice"
+        },
+        {
+            "artist": "Glass Animals",
+            "querry": "Pools by Glass Animals",
+            "title": "Glass Animals - Pools (Official Video)",
+            "track": "Pools"
+        },
+        {
+            "artist": "Glass Animals",
+            "querry": "Your Love (D\u00e9j\u00e0 Vu) by Glass Animals",
+            "title": "Glass Animals - Your Love (D\u00e9j\u00e0 Vu)",
+            "track": "Your Love (D\u00e9j\u00e0 Vu)"
+        },
+        {
+            "artist": "Glass Animals",
+            "querry": "Walla Walla by Glass Animals",
+            "title": "Walla Walla",
+            "track": "Walla Walla"
+        },
+        {
+            "artist": "Glass Animals",
+            "querry": "Young and Beautiful by Glass Animals",
+            "title": "Glass Animals- Young & Beautiful",
+            "track": "Young and Beautiful"
+        },
+        {
+            "artist": "Glass Animals",
+            "querry": "((home movie: rockets)) by Glass Animals",
+            "title": "Glass Animals - ((home movie: rockets)) // dreamland home movies",
+            "track": "((home movie: rockets))"
+        },
+        {
+            "artist": "Glass Animals",
+            "querry": "Melon and the Coconut by Glass Animals",
+            "title": "Glass Animals - Melon and the Coconut // dreamland home movies",
+            "track": "Melon and the Coconut"
+        },
+        {
+            "artist": "Glass Animals",
+            "querry": "Lose Control by Glass Animals",
+            "title": "Glass Animals, Joey Bada$$ - Lose Control (Official Audio)",
+            "track": "Lose Control"
+        },
+        {
+            "artist": "Glass Animals",
+            "querry": "Gooey by Glass Animals",
+            "title": "Glass Animals - Gooey (Official Audio)",
+            "track": "Gooey"
+        },
+        {
+            "artist": "Glass Animals",
+            "querry": "Space Ghost Coast To Coast (with Bree Runway) by Glass Animals",
+            "title": "Glass Animals - Space Ghost Coast To Coast (ft. Bree Runway)",
+            "track": "Space Ghost Coast To Coast (with Bree Runway)"
+        },
+        {
+            "artist": "Glass Animals",
+            "querry": "Waterfalls Coming Out Your Mouth by Glass Animals",
+            "title": "Glass Animal - Waterfalls Coming Out Your Mouth (Lyrics)",
+            "track": "Waterfalls Coming Out Your Mouth"
+        },
+        {
+            "artist": "Glass Animals",
+            "querry": "I Don't Wanna Talk (I Just Wanna Dance) by Glass Animals",
+            "title": "Glass Animals - I Don't Wanna Talk (I Just Wanna Dance) | Official Video",
+            "track": "I Dont Wanna Talk (I Just Wanna Dance)"
+        },
+        {
+            "artist": "Glass Animals",
+            "querry": "The Other Side of Paradise by Glass Animals",
+            "title": "The Other Side Of Paradise",
+            "track": "The Other Side of Paradise"
+        },
+        {
+            "artist": "Glass Animals",
+            "querry": "Tokyo Drifting (with Denzel Curry) by Glass Animals",
+            "title": "Glass Animals, Denzel Curry - Tokyo Drifting",
+            "track": "Tokyo Drifting (with Denzel Curry)"
+        },
+        {
+            "artist": "Glass Animals",
+            "querry": "Psylla by Glass Animals",
+            "title": "Glass Animals - Psylla (Official Video)",
+            "track": "Psylla"
+        },
+        {
+            "artist": "Glass Animals",
+            "querry": "Cane Shuga by Glass Animals",
+            "title": "Cane Shuga",
+            "track": "Cane Shuga"
+        },
+        {
+            "artist": "Glass Animals",
+            "querry": "Poplar St by Glass Animals",
+            "title": "Poplar St",
+            "track": "Poplar St"
+        },
+        {
+            "artist": "Glass Animals",
+            "querry": "Hot sugar by Glass Animals",
+            "title": "Glass Animals - Hot Sugar // dreamland home movies",
+            "track": "Hot sugar"
+        },
+        {
+            "artist": "Glass Animals",
+            "querry": "Heat Waves by Glass Animals",
+            "title": "Glass Animals - Heat Waves (Official Video)",
+            "track": "Heat Waves"
+        },
+        {
+            "artist": "Glass Animals",
+            "querry": "Gooey - Gilligan Moss Remix by Glass Animals",
+            "title": "Glass Animals - Gooey (Gilligan Moss Remix)",
+            "track": "Gooey - Gilligan Moss Remix"
+        },
+        {
+            "artist": "Glass Animals",
+            "querry": "Helium by Glass Animals",
+            "title": "Glass Animals - Helium",
+            "track": "Helium"
+        },
+        {
+            "artist": "Glass Animals",
+            "querry": "Life Itself by Glass Animals",
+            "title": "Glass Animals - Life Itself (Official Audio)",
+            "track": "Life Itself"
+        },
+        {
+            "artist": "Glass Animals",
+            "querry": "((home movie: shoes on)) by Glass Animals",
+            "title": "[home movie: shoes on]",
+            "track": "((home movie: shoes on))"
+        },
+        {
+            "artist": "Glass Animals",
+            "querry": "Dust In Your Pocket by Glass Animals",
+            "title": "Dust In Your Pocket",
+            "track": "Dust In Your Pocket"
+        },
+        {
+            "artist": "Glass Animals",
+            "querry": "Wyrd by Glass Animals",
+            "title": "Wyrd",
+            "track": "Wyrd"
+        },
+        {
+            "artist": "Glass Animals",
+            "querry": "Mama's Gun by Glass Animals",
+            "title": "Mama's Gun",
+            "track": "Mamas Gun"
+        },
+        {
+            "artist": "Glass Animals",
+            "querry": "Tangerine by Glass Animals",
+            "title": "Glass Animals - Tangerine (Official Video)",
+            "track": "Tangerine"
+        },
+        {
+            "artist": "Glass Animals",
+            "querry": "Cocoa Hooves by Glass Animals",
+            "title": "Cocoa Hooves",
+            "track": "Cocoa Hooves"
+        },
+        {
+            "artist": "Glass Animals",
+            "querry": "Toes by Glass Animals",
+            "title": "Glass Animals - Toes (Official Audio)",
+            "track": "Toes"
+        },
+        {
+            "artist": "Glass Animals",
+            "querry": "Heat Waves - Stripped Back by Glass Animals",
+            "title": "Heat Waves (Stripped Back)",
+            "track": "Heat Waves - Stripped Back"
+        },
+        {
+            "artist": "Glass Animals",
+            "querry": "Season 2 Episode 3 by Glass Animals",
+            "title": "Glass Animals - Season 2 Episode 3 (Official Video)",
+            "track": "Season 2 Episode 3"
+        },
+        {
+            "artist": "Glass Animals",
+            "querry": "Flip by Glass Animals",
+            "title": "Flip",
+            "track": "Flip"
+        },
+        {
+            "artist": "Glass Animals",
+            "querry": "Youth by Glass Animals",
+            "title": "Glass Animals - Youth (Official Video)",
+            "track": "Youth"
+        },
+        {
+            "artist": "Glass Animals",
+            "querry": "Domestic Bliss by Glass Animals",
+            "title": "Glass Animals - Domestic Bliss // dreamland home movies",
+            "track": "Domestic Bliss"
+        },
+        {
+            "artist": "Glass Animals",
+            "querry": "Agnes by Glass Animals",
+            "title": "Glass Animals - Agnes (Official Video)",
+            "track": "Agnes"
+        },
+        {
+            "artist": "Glass Animals",
+            "querry": "JDNT by Glass Animals",
+            "title": "JDNT",
+            "track": "JDNT"
+        },
+        {
+            "artist": "Glass Animals",
+            "querry": "Intruxx by Glass Animals",
+            "title": "Intruxx",
+            "track": "Intruxx"
+        },
+        {
+            "artist": "Glass Animals",
+            "querry": "Golden Antlers by Glass Animals",
+            "title": "Glass Animals - Golden Antlers (Official Audio)",
+            "track": "Golden Antlers"
+        },
+        {
+            "artist": "Glass Animals",
+            "querry": "[Premade Sandwiches] by Glass Animals",
+            "title": "[Premade Sandwiches] - Glass Animals - Lyrics",
+            "track": "[Premade Sandwiches]"
+        },
+        {
+            "artist": "Glass Animals",
+            "querry": "Black Mambo by Glass Animals",
+            "title": "Glass Animals - Black Mambo (Official Lyric Video)",
+            "track": "Black Mambo"
+        },
+        {
+            "artist": "Glass Animals",
+            "querry": "Heart-Shaped Box by Glass Animals",
+            "title": "Glass Animals - Quarantine Covers. Episode 1. (Nirvana - Heart Shaped Box)",
+            "track": "Heart-Shaped Box"
+        }
+    ]
+}
